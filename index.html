@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Jamaica — Vibes, Food & Culture</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    :root{ --jam-green:#009739; --jam-gold:#FFD100; --jam-black:#000000; --white:#fff; }
+    *{box-sizing:border-box}
+    body{ margin:0; font-family:Arial, Helvetica, sans-serif; color:var(--white);
+      background:linear-gradient(120deg, var(--jam-green), var(--jam-gold), var(--jam-black));
+      background-attachment:fixed; text-align:center; }
+    header{ background:var(--jam-black); border-bottom:6px solid var(--jam-gold); padding:24px 16px; }
+    .jamaica-title{
+      font-size:3rem; font-weight:900; margin:0;
+      background:linear-gradient(to right, var(--jam-green) 50%, var(--jam-gold) 50%);
+      -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent;
+      text-shadow:2px 2px 8px black;
+    }
+    nav{ margin-top:14px; display:flex; gap:12px; justify-content:center; flex-wrap:wrap; }
+    nav a{
+      font-weight:900; font-size:1.05rem; text-decoration:none; color:var(--jam-black);
+      background:var(--jam-gold); padding:10px 16px; border-radius:12px; border:2px solid var(--jam-gold);
+      transition:transform .12s ease, background .2s ease, color .2s ease, box-shadow .2s ease;
+    }
+    nav a:hover{ background:var(--jam-green); color:var(--white); box-shadow:0 0 0 3px rgba(0,0,0,.2); transform:translateY(-1px); border-color:var(--jam-gold); }
+    main{
+      max-width:1100px; margin:24px auto; background:rgba(0,0,0,.55);
+      border:3px solid var(--jam-gold); border-radius:18px; padding:20px; box-shadow:0 10px 30px rgba(0,0,0,.35);
+    }
+    h2{ font-size:2rem; font-weight:900; color:var(--jam-gold); text-shadow:2px 2px 8px var(--jam-green); margin:8px 0 14px; }
+    h3{ font-size:1.4rem; font-weight:900; color:#9af59a; margin:8px 0 14px; }
+    p, li{ font-size:1.1rem; font-weight:700; }
+    a.inline{ font-weight:900; color:var(--jam-gold); } a.inline:hover{ color:#b6ffb6; text-decoration:underline; }
+    .media{ display:grid; grid-template-columns:repeat(auto-fit, minmax(220px, 1fr)); gap:16px; margin:16px 0 8px; }
+    .card{ background:rgba(255,255,255,.06); border:2px solid var(--jam-gold); border-radius:14px; padding:10px; }
+    .card img{ width:100%; height:180px; object-fit:cover; border-radius:10px; border:4px solid var(--jam-gold); box-shadow:0 0 12px rgba(0,0,0,.6); }
+    .caption{ margin-top:8px; font-weight:900; color:#f3ffce; }
+    .facts{ display:grid; gap:12px; grid-template-columns:repeat(auto-fit, minmax(240px, 1fr)); margin-top:12px; }
+    .fact{ background:rgba(0,0,0,.55); border:2px solid var(--jam-green); border-radius:12px; padding:12px; }
+    iframe{ width:100%; max-width:680px; height:382px; border:5px solid var(--jam-gold); border-radius:12px; box-shadow:0 0 14px rgba(0,0,0,.6); }
+    footer{ background:var(--jam-black); color:var(--jam-gold); font-weight:900; border-top:6px solid var(--jam-green); padding:18px; margin-top:24px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 class="jamaica-title">WELCOME TO JAMAICA</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#foods">Popular Foods</a>
+      <a href="#attractions">Attractions</a>
+      <a href="#resources">Resources</a>
+    </nav>
+  </header>
+
+  <main id="home">
+    <h2>Vibes, Food & Culture</h2>
+    <p>Island of reggae, flavor, and natural beauty — <a class="inline" href="https://www.visitjamaica.com" target="_blank">plan your trip</a> and feel the vibes!</p>
+
+    <div class="media">
+      <div class="card">
+        <img referrerpolicy="no-referrer" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Flag_of_Jamaica.svg/800px-Flag_of_Jamaica.svg.png" alt="Jamaican Flag">
+        <div class="caption">The bold Black–Green–Gold flag</div>
+      </div>
+      <div class="card">
+        <img referrerpolicy="no-referrer" src="https://upload.wikimedia.org/wikipedia/commons/0/04/Negril_7_Mile_Beach.jpg" alt="Negril Seven Mile Beach">
+        <div class="caption">Negril’s famous Seven Mile Beach</div>
+      </div>
+      <div class="card">
+        <img referrerpolicy="no-referrer" src="https://upload.wikimedia.org/wikipedia/commons/4/47/Blue_Mountains_Jamaica.jpg" alt="Blue Mountains Jamaica">
+        <div class="caption">The Blue Mountains (world-class coffee!)</div>
+      </div>
+    </div>
+
+    <h3>Quick Video Vibes</h3>
+    <iframe src="https://www.youtube.com/embed/oAqfn62AqGU" title="Jamaica Travel Video" allowfullscreen></iframe>
+
+    <h2>Fun Facts about Jamaica</h2>
+    <div class="facts">
+      <div class="fact">☕ Blue Mountain Coffee is among the most sought-after in the world.</div>
+      <div class="fact">🎶 Birthplace of reggae — home of Bob Marley.</div>
+      <div class="fact">🏃 Usain Bolt and many world-record sprinters hail from Jamaica.</div>
+      <div class="fact">🌋 Dunn’s River Falls empties directly into the sea — rare travertine falls.</div>
+      <div class="fact">🌊 The Luminous Lagoon glows at night (bioluminescence)!</div>
+      <div class="fact">🍽️ National dish: Ackee & Saltfish — savory and colorful.</div>
+    </div>
+  </main><!-- 🌴 Photo Highlights of Jamaica -->
+<h2>Photo Highlights of Jamaica</h2>
+<div class="media">
+  <div class="card">
+    <img referrerpolicy="no-referrer" loading="lazy"
+         src="https://upload.wikimedia.org/wikipedia/commons/0/04/Negril_7_Mile_Beach.jpg"
+         alt="Negril Seven Mile Beach">
+    <div class="caption">🏖️ Negril Seven Mile Beach — sunsets for days</div>
+  </div>
+
+  <div class="card">
+    <img referrerpolicy="no-referrer" loading="lazy"
+         src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Dunns_River_Falls_Jamaica.jpg"
+         alt="Dunn's River Falls">
+    <div class="caption">💧 Dunn’s River Falls — climb the cascades</div>
+  </div>
+
+  <div class="card">
+    <img referrerpolicy="no-referrer" loading="lazy"
+         src="https://upload.wikimedia.org/wikipedia/commons/4/47/Blue_Mountains_Jamaica.jpg"
+         alt="Blue Mountains Jamaica">
+    <div class="caption">⛰️ Blue Mountains — hikes & coffee tours</div>
+  </div>
+
+  <div class="card">
+    <img referrerpolicy="no-referrer" loading="lazy"
+         src="https://upload.wikimedia.org/wikipedia/commons/0/0a/Luminous_Lagoon_Jamaica.jpg"
+         alt="Luminous Lagoon Jamaica">
+    <div class="caption">✨ Luminous Lagoon — glowing night waters</div>
+  </div>
+
+  <div class="card">
+    <img referrerpolicy="no-referrer" loading="lazy"
+         src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Rick%27s_Cafe%2C_Negril%2C_Jamaica_-_panoramio.jpg"
+         alt="Rick's Cafe cliff diving">
+    <div class="caption">🤿 Rick’s Cafe — cliff diving thrills</div>
+  </div>
+
+  <div class="card">
+    <img referrerpolicy="no-referrer" loading="lazy"
+         src="https://upload.wikimedia.org/wikipedia/commons/d/d6/Bob_Marley_Museum%2C_56_Hope_Road.jpg"
+         alt="Bob Marley Museum Kingston">
+    <div class="caption">🎶 Bob Marley Museum — reggae history</div>
+  </div>
+</div>
+
+<!-- 🍽️ Food Highlights (on Home page) -->
+<h2>Food Highlights</h2>
+<div class="media">
+  <div class="card">
+    <img referrerpolicy="no-referrer" loading="lazy"
+         src="https://upload.wikimedia.org/wikipedia/commons/2/2b/Jerk_chicken_meal.jpg"
+         alt="Jerk Chicken">
+    <div class="caption">🔥 Jerk Chicken — spicy, smoky, iconic</div>
+  </div>
+
+  <div class="card">
+    <img referrerpolicy="no-referrer" loading="lazy"
+         src="https://upload.wikimedia.org/wikipedia/commons/8/84/Ackee_and_saltfish.jpg"
+         alt="Ackee and Saltfish">
+    <div class="caption">🍳 Ackee & Saltfish — national dish</div>
+  </div>
+
+  <div class="card">
+    <img referrerpolicy="no-referrer" loading="lazy"
+         src="https://upload.wikimedia.org/wikipedia/commons/7/71/Jamaican_beef_patties.jpg"
+         alt="Jamaican Patties">
+    <div class="caption">🥟 Jamaican Patties — flaky & flavorful</div>
+  </div>
+</div>
+
+
+  <!-- ONLY ONE FOOD SECTION BELOW -->
+  <main id="foods">
+    <h2>Popular Jamaican Foods</h2>
+    <div class="media">
+      <div class="card">
+        <img referrerpolicy="no-referrer" loading="lazy"
+             src="https://upload.wikimedia.org/wikipedia/commons/2/2b/Jerk_chicken_meal.jpg" alt="Jerk Chicken">
+        <div class="caption">🔥 Jerk Chicken — spicy, smoky, iconic</div>
+      </div>
+      <div class="card">
+        <img referrerpolicy="no-referrer" loading="lazy"
+             src="https://upload.wikimedia.org/wikipedia/commons/8/84/Ackee_and_saltfish.jpg" alt="Ackee and Saltfish">
+        <div class="caption">🍳 Ackee & Saltfish — national dish</div>
+      </div>
+      <div class="card">
+        <img referrerpolicy="no-referrer" loading="lazy"
+             src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Curry_goat_with_rice_and_peas.jpg" alt="Curried Goat">
+        <div class="caption">🍛 Curried Goat + Rice & Peas</div>
+      </div>
+      <div class="card">
+        <img referrerpolicy="no-referrer" loading="lazy"
+             src="https://upload.wikimedia.org/wikipedia/commons/7/71/Jamaican_beef_patties.jpg" alt="Jamaican Patties">
+        <div class="caption">🥟 Jamaican Patties — flaky & flavorful</div>
+      </div>
+      <div class="card">
+        <img referrerpolicy="no-referrer" loading="lazy"
+             src="https://upload.wikimedia.org/wikipedia/commons/2/2c/Fried_plantains.jpg" alt="Fried Plantains">
+        <div class="caption">🍌 Fried Plantains — caramelized sweet</div>
+      </div>
+      <div class="card">
+        <img referrerpolicy="no-referrer" loading="lazy"
+             src="https://upload.wikimedia.org/wikipedia/commons/9/98/Bammy_-_Jamaican_cassava_flatbread.jpg" alt="Bammy">
+        <div class="caption">🥯 Bammy — cassava flatbread</div>
+      </div>
+    </div>
+  </main>
+
+  <main id="attractions">
+    <h2>Top Attractions</h2>
+    <div class="media">
+      <div class="card">
+        <img referrerpolicy="no-referrer" src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Dunns_River_Falls_Jamaica.jpg" alt="Dunn's River Falls">
+        <div class="caption">💧 Dunn’s River Falls — climb the cascades</div>
+      </div>
+      <div class="card">
+        <img referrerpolicy="no-referrer" src="https://upload.wikimedia.org/wikipedia/commons/0/04/Negril_7_Mile_Beach.jpg" alt="Negril Seven Mile Beach">
+        <div class="caption">🏖️ Negril Seven Mile Beach — sunsets for days</div>
+      </div>
+      <div class="card">
+        <img referrerpolicy="no-referrer" src="https://upload.wikimedia.org/wikipedia/commons/4/47/Blue_Mountains_Jamaica.jpg" alt="Blue Mountains">
+        <div class="caption">⛰️ Blue Mountains — hikes & coffee tours</div>
+      </div>
+      <div class="card">
+        <img referrerpolicy="no-referrer" src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Rick%27s_Cafe%2C_Negril%2C_Jamaica_-_panoramio.jpg" alt="Rick's Cafe">
+        <div class="caption">🤿 Rick’s Cafe — cliff diving thrills</div>
+      </div>
+      <div class="card">
+        <img referrerpolicy="no-referrer" src="https://upload.wikimedia.org/wikipedia/commons/d/d6/Bob_Marley_Museum%2C_56_Hope_Road.jpg" alt="Bob Marley Museum">
+        <div class="caption">🎶 Bob Marley Museum — reggae history</div>
+      </div>
+      <div class="card">
+        <img referrerpolicy="no-referrer" src="https://upload.wikimedia.org/wikipedia/commons/0/0a/Luminous_Lagoon_Jamaica.jpg" alt="Luminous Lagoon">
+        <div class="caption">✨ Luminous Lagoon — glowing night waters</div>
+      </div>
+    </div>
+  </main>
+
+  <main id="resources">
+    <h2>Resources</h2>
+    <p>
+      <a class="inline" href="https://www.visitjamaica.com" target="_blank">🌴 VisitJamaica.com (Official Tourism)</a> &nbsp;|&nbsp;
+      <a class="inline" href="https://www.facebook.com/VisitJamaica" target="_blank">📘 Visit Jamaica on Facebook</a>
+    </p>
+    <h3>Facebook Feed</h3>
+    <iframe
+      src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FVisitJamaica&tabs=timeline&width=680&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true"
+      width="680" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+      allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowfullscreen></iframe>
+  </main>
+
+  <footer>© 2025 Jamaica Project — One Love</footer>
+</body>
+</html>
+
+
